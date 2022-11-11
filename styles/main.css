@@ -82,7 +82,15 @@ h6 {
    margin-bottom: 55px;
 }
 
+.button:hover {
+   cursor: pointer;
+}
+
 .button--red-color {
    background-color: #EC7979;
    color: #fff;
+}
+
+.button--red-color:hover {
+   background-color: #ec8f8f;
 }

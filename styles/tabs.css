@@ -7,9 +7,9 @@
    border: 1px solid #C6CBCD;
 }
 
-.selected-tab:hover {
+/* .selected-tab:hover {
    cursor: pointer;
-}
+} */
 
 .tabs-list__tab {
    display: inline-block;
@@ -21,6 +21,11 @@
    padding-bottom: 10px;
 }
 
+.tabs-list__tab:hover {
+   cursor: pointer;
+   text-decoration: underline;
+}
+
 .tab__header-text {
    font-family: 'Open Sans', sans-serif;
    font-size: 14px;
@@ -28,7 +33,6 @@
 
 .tabs__tab-content {
    border: 1px solid #C6CBCD;
-   width: 1170px;
 }
 
 .tab-content__tab-descr {
