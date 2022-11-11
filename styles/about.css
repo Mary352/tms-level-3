@@ -1,0 +1,31 @@
+.skills-list {
+   margin-top: 110px;
+}
+
+.skill-item__image--wrapper {
+   width: 95px;
+   height: 95px;
+   border: 1px solid #EC7979;
+   border-radius: 50%;
+   margin: 80px;
+   display: inline-block;
+}
+
+.skills-list__skill-item {
+   display: inline-block;
+   width: calc(99%/3);
+   text-align: center;
+}
+
+.skill-item__title {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+   font-size: 24px;
+   margin-bottom: 50px;
+}
+
+.skill-item__descr {
+   font-family: 'Raleway', sans-serif;
+   font-size: 18px;
+   line-height: 21px;
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;700&display=swap');
+
+/* всегда это использовать */
+* {
+   box-sizing: border-box;
+}
+
+body,
+html {
+   margin: 0;
+   padding: 0;
+}
+
+ul,
+ol {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+a {
+   text-decoration: none;
+   display: block;
+   color: #000;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0;
+   padding: 0;
+   font-weight: normal;
+   font-style: normal;
+}
+
+/* конец использования */
+
+/* глобальные стили */
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.main-title {
+   font-family: 'Raleway', sans-serif;
+   font-size: 36px;
+   text-align: center;
+}
+
+.secondary-title {
+   font-family: 'Raleway', sans-serif;
+   font-size: 18px;
+   text-align: center;
+   color: #86878B;
+}
+
+.separator {
+   margin: 50px auto 45px auto;
+   height: 1px;
+   width: 170px;
+}
+
+.separator--red-color {
+   background-color: #EC7979;
+}
+
+.button {
+   width: 270px;
+   height: 58px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   font-size: 18px;
+   border-style: none;
+   /* margin-top: 45px; */
+   margin-left: 30px;
+   /* убрать, когда сделаю padding контейнеру с текстом */
+   margin-bottom: 55px;
+}
+
+.button--red-color {
+   background-color: #EC7979;
+   color: #fff;
+}
