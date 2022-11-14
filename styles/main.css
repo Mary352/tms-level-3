@@ -76,10 +76,8 @@ h6 {
    font-weight: 600;
    font-size: 18px;
    border-style: none;
-   /* margin-top: 45px; */
    margin-left: 30px;
-   /* убрать, когда сделаю padding контейнеру с текстом */
-   margin-bottom: 55px;
+   
 }
 
 .button:hover {
