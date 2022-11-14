@@ -5,18 +5,19 @@
 
 .selected-tab {
    border: 1px solid #C6CBCD;
+   background-color: #fff;
+   position: relative;
+   top: 1px;
+   z-index: 9;
 }
-
-
 
 .tabs-list__tab {
    display: inline-block;
    border-radius: 5px 5px 0 0;
    border-bottom: none;
-   width: 200px;
+   width: 205px;
    text-align: center;
-   padding-top: 10px;
-   padding-bottom: 10px;
+   padding: 10px 0;
 }
 
 .tabs-list__tab:hover {
@@ -36,6 +37,7 @@
 
 .tabs__tab-content {
    border: 1px solid #C6CBCD;
+   position: relative;
 }
 
 .tab-content__tab-descr {
