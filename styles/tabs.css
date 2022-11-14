@@ -5,7 +5,7 @@
 
 .tabs__tabs-list {
    position: relative;
-   top: 2px;
+   top: 1px;
 }
 
 .tabs-list__tab:not(.selected-tab):hover {
