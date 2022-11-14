@@ -7,9 +7,7 @@
    border: 1px solid #C6CBCD;
 }
 
-/* .selected-tab:hover {
-   cursor: pointer;
-} */
+
 
 .tabs-list__tab {
    display: inline-block;
@@ -24,6 +22,11 @@
 .tabs-list__tab:hover {
    cursor: pointer;
    text-decoration: underline;
+}
+
+.selected-tab:hover {
+   cursor: default;
+   text-decoration: none;
 }
 
 .tab__header-text {
