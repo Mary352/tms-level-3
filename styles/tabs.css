@@ -32,8 +32,6 @@
    padding: 10px 0;
 }
 
-
-
 /* .selected-tab:hover {
    cursor: default;
    text-decoration: none;
@@ -46,17 +44,16 @@
 
 .tabs__tab-content {
    border: 1px solid #C6CBCD;
+   display: flex;
 }
 
 .tab-content__tab-descr {
-   display: inline-block;
-   width: calc(100% - 470px - 5px);
+   width: calc(100% - 470px);
    padding: 55px 64px 50px 66px;
    vertical-align: top;
 }
 
 .tab-content__tab-img--wrapper {
-   display: inline-block;
    width: 470px;
    height: 500px;
 }
