@@ -50,7 +50,6 @@
 .tab-content__tab-descr {
    width: calc(100% - 470px);
    padding: 55px 64px 50px 66px;
-   vertical-align: top;
 }
 
 .tab-content__tab-img--wrapper {
