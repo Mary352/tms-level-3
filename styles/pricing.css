@@ -1,0 +1,52 @@
+.pricing {
+   padding: 115px 0 50px;
+   background-color: #F5F5F5;
+}
+
+.pricing-offer--wrapper {
+   margin-top: 80px;
+
+   text-align: center;
+   display: flex;
+   justify-content: space-between;
+}
+
+.pricing-offer__item {
+   margin: 1px 0 1px;
+   padding: 20px 0;
+   width: 370px;
+}
+
+.pricing-offer__item--high {
+   padding: 35px 0;
+}
+
+.pricing-offer__item--gray-bg-color {
+   background-color: #333333;
+}
+
+.pricing-offer__item--white-bg-color {
+   background-color: #FFF;
+}
+
+.pricing-offer__main-text {
+   font-family: 'Open Sans';
+   font-weight: 700;
+   font-size: 24px;
+   color: #FFF;
+}
+
+.pricing-offer__main-text--high {
+   font-size: 36px;
+}
+
+.pricing-offer__secondary-text {
+   font-family: 'Raleway';
+   font-weight: 400;
+   font-size: 18px;
+   color: #86878B;
+}
+
+.text--another-gray {
+   color: rgba(255, 255, 255, 0.5);
+}
