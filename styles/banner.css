@@ -1,0 +1,8 @@
+.banner{
+   background: url(../img/banner/bg-city-banner.png) center/cover no-repeat;
+   padding: 110px 0 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+

@@ -56,11 +56,20 @@ h6 {
    text-transform: uppercase;
 }
 
+.main-title--white-color{
+   color: #fff;
+}
+
 .secondary-title {
    font-family: 'Raleway', sans-serif;
    font-size: 18px;
    text-align: center;
    color: #86878B;
+}
+
+.secondary-title--white-color{
+   color: #fff;
+   margin-bottom: 75px;
 }
 
 .separator {
@@ -71,6 +80,10 @@ h6 {
 
 .separator--red-color {
    background-color: #EC7979;
+}
+
+.separator--white-color {
+   background-color: #fff;
 }
 
 .button {
@@ -96,4 +109,10 @@ h6 {
 
 .button--red-color:hover {
    background-color: #ec8f8f;
+}
+
+.button--transparent-color{
+   background-color: transparent;
+   color: #fff;
+   border: 2px solid #fff;
 }
