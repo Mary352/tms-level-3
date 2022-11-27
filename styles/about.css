@@ -5,6 +5,7 @@
 .skills-list {
    margin-top: 110px;
    display: flex;
+   align-items: space-between;
 }
 
 .skill-item__image--wrapper {
