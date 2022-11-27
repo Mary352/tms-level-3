@@ -1,0 +1,45 @@
+.social{
+   background-color: #F8EFEF;
+}
+
+.social__content--wrapper{
+   padding: 20px 170px;
+   /* padding-left: 170px; */
+   /* padding-top: 20px; */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.social__descr__title{
+   font-family: 'Open Sans';
+   font-weight: 700;
+   font-size: 24px;
+   color: #333;
+   margin-bottom: 45px;
+}
+
+.social__descr__text{
+   font-family: 'Raleway';
+   font-size: 18px;
+   line-height: 21px;
+   color: #86878B;
+}
+
+.social__list-icons{
+   display: flex;
+   align-self: center;
+}
+
+.social__list-item--wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 70px;
+   height: 70px;
+   margin: 0 15px;
+}
+
+.social__list-item{
+   display: inline;
+}
