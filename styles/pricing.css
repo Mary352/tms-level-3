@@ -17,22 +17,23 @@
 }
 
 .pricing-offer:hover{
-   
+   cursor: pointer;
 }
 
 .pricing-offer__item {
-   margin: 2px 0 2px;
+   /* margin: 2px 0 2px; */
+   border: 1px solid #F5F5F5;
    padding: 20px 0;
    width: 370px;
 }
 
-.pricing-offer__item:first-child{
+/* .pricing-offer__item:first-child{
    margin-top: 1px;
 }
 
 .pricing-offer__item:last-child{
    margin-bottom: 1px;
-}
+} */
 
 .pricing-offer__item--high {
    padding: 35px 0;
@@ -54,6 +55,7 @@
 }
 
 .pricing-offer__main-text--high {
+   font-family: 'Raleway';
    font-size: 36px;
 }
 
