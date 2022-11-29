@@ -6,6 +6,7 @@
    margin: 0;
    padding: 0;
    text-decoration: none;
+   font-family: 'Raleway', sans-serif;
 }
 
 /* body,
@@ -50,7 +51,6 @@ h6 {
 }
 
 .main-title {
-   font-family: 'Raleway', sans-serif;
    font-size: 36px;
    text-align: center;
    text-transform: uppercase;
@@ -61,10 +61,31 @@ h6 {
 }
 
 .secondary-title {
-   font-family: 'Raleway', sans-serif;
    font-size: 18px;
    text-align: center;
    color: #86878B;
+}
+
+.regular-text {
+   font-size: 18px;
+   line-height: 21px;
+}
+
+.regular-text--center-align {
+   text-align: center;
+}
+
+.regular-text--gray--color{
+   color: #86878B;
+}
+
+.regular-text--black--color{
+   color: #000;
+}
+
+.regular-text--white--color{
+   color: #fff;
+   margin-bottom: 75px;
 }
 
 .secondary-title--white-color{
@@ -115,4 +136,18 @@ h6 {
    background-color: transparent;
    color: #fff;
    border: 2px solid #fff;
+}
+
+.button--transparent-color{
+   background-color: transparent;
+   color: #fff;
+   border: 2px solid #fff;
+}
+
+.h4-title{
+   font-family: 'Open Sans';
+   font-weight: 700;
+   font-size: 24px;
+   color: #333;
+   margin-bottom: 45px;
 }

@@ -18,6 +18,8 @@
 
 .pricing-offer:hover{
    cursor: pointer;
+   position: relative;
+   top: -20px
 }
 
 .pricing-offer__item {

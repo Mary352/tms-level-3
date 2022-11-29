@@ -11,13 +11,7 @@
    justify-content: space-between;
 }
 
-.social__descr__title{
-   font-family: 'Open Sans';
-   font-weight: 700;
-   font-size: 24px;
-   color: #333;
-   margin-bottom: 45px;
-}
+
 
 .social__descr__text{
    font-family: 'Raleway';
