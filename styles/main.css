@@ -56,8 +56,31 @@ h6 {
    text-transform: uppercase;
 }
 
+.main-title--black-color{
+   color: #000;
+}
+
+
+.main-title:after{
+   content: '';
+   display: block;
+   margin: 50px auto 45px auto;
+   height: 1px;
+   width: 170px;
+   background-color: #EC7979;
+}
+
 .main-title--white-color{
    color: #fff;
+}
+
+.main-title--white-color:after{
+   content: '';
+   display: block;
+   margin: 50px auto 45px auto;
+   height: 1px;
+   width: 170px;
+   background-color: #fff;
 }
 
 .secondary-title {
@@ -145,9 +168,9 @@ h6 {
 }
 
 .h4-title{
-   font-family: 'Open Sans';
+   font-family: 'Open Sans', sans-serif;
    font-weight: 700;
    font-size: 24px;
    color: #333;
-   margin-bottom: 45px;
+   margin-bottom: 55px;
 }
