@@ -19,6 +19,7 @@
    background-color: #E2E2E2;
    border-radius: 10px;
    text-align: center;
+   position: relative;
 }
 
 /* .customer__dilogue-window-polygon{
@@ -34,21 +35,20 @@
    margin-bottom: 45px;
 } */
 
-/* .customer__dilogue-window:after{
+.customer__dilogue-window:after{
    content: '';
-   position: relative;
+   position: absolute;
    display: block;
    left: 20%;
+   top: 100%;
    width: 0;
 	height: 0;
-   /* background-color: #fff;  
 	border-left: 15px solid transparent;
 	border-right: 15px solid transparent;
 	border-top: 20px solid #E2E2E2;
-   margin-bottom: 45px;
-} */
+}
 
-.customer__info:before{
+/* .customer__info:before{
    content: '';
    position: relative;
    display: block;
@@ -59,8 +59,8 @@
 	border-left: 15px solid transparent;
 	border-right: 15px solid transparent;
 	border-top: 20px solid #E2E2E2;
-   /* margin-bottom: 45px; */
-}
+   /* margin-bottom: 45px; 
+} */
 
 
 .customer__info{
