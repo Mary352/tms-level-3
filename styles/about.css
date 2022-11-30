@@ -6,7 +6,7 @@
    display: flex;  
    flex-wrap: wrap;
    flex-direction: row;
-   margin: 110px -15px 0;
+   margin: 70px -15px 0;
 }
 
 .skill-item__image--wrapper {
