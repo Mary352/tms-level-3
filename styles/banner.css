@@ -1,9 +1,39 @@
 .banner{
    background: url(../img/banner/bg-city-banner.png) center/cover no-repeat;
+   position: relative;
    padding: 110px 0 50px;
+   /* z-index: -2; */
+}
+
+.inner-content{   
    display: flex;
    flex-direction: column;
    align-items: center;
+   position: relative;
+   z-index: 1;
+}
+
+/* .inner-content:before{
+   content: '';
+   display: block;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0.5);
+   top: 0;
+   left: 0;
+   z-index: -1;
+} */
+
+.banner:after{
+   content: '';
+   display: block;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0.5);
+   top: 0;
+   left: 0;
 }
 
 /* .banner__upper-layer{
@@ -11,3 +41,4 @@
    width: 100%;
    height: 100%;
 } */
+
