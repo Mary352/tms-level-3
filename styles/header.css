@@ -8,10 +8,14 @@
    z-index: 3;
 }
 
+.nav{
+   display: flex;
+   align-self: center;
+}
+
 .header__menu-list{
    display: flex;
    margin: 0 -30px;
-   align-self: center;
 }
 
 .menu-list__list-item{
