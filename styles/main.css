@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500;700&display=swap');
 
 /* всегда это использовать */
 * {
@@ -98,15 +98,15 @@ h6 {
    text-align: center;
 }
 
-.regular-text--gray--color{
+.regular-text--gray-color{
    color: #86878B;
 }
 
-.regular-text--black--color{
+.regular-text--black-color{
    color: #000;
 }
 
-.regular-text--white--color{
+.regular-text--white-color{
    color: #fff;
    margin-bottom: 75px;
 }
@@ -140,6 +140,7 @@ h6 {
    margin-left: 30px;
    text-align: center;
    padding: 15px 0;
+   transition: 0.3s;
 }
 
 .button:hover {
@@ -171,5 +172,5 @@ h6 {
    font-weight: 700;
    font-size: 24px;
    color: #333;
-   margin-bottom: 55px;
+   margin-bottom: 45px;
 }

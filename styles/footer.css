@@ -19,11 +19,18 @@
    justify-content: center;
 }
 
-.footer__copyright-text{
-   font-family: 'Raleway';
+.footer__copyright{
    font-size: 18px;
    color: rgba(255, 255, 255, 0.5);
    text-align: center;
+}
+
+.footer__icon-item{
+   fill: none;
+}
+
+.footer__icon-item path{
+   fill: #CCCCCC;
 }
 
 

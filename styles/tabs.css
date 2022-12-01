@@ -16,7 +16,7 @@
 .tabs-list__tab:hover,
 .selected-tab {
    position: relative;
-   z-index: 9;
+   z-index: 2;
    border-top: 1px solid #C6CBCD;
    border-left: 1px solid #C6CBCD;
    border-right: 1px solid #C6CBCD;

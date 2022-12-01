@@ -37,3 +37,11 @@
 .social__list-item{
    display: inline;
 }
+
+.social__icon-item{
+   fill: none;
+}
+
+.social__icon-item path{
+   fill: #CCCCCC;
+}

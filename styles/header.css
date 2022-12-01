@@ -3,13 +3,15 @@
    padding: 25px 200px 25px 115px;
    display: flex;
    justify-content: space-between;
-   /* position: fixed;
-   width: 100%; */
+   position: fixed;
+   width: 100%;
+   z-index: 3;
 }
 
 .header__menu-list{
    display: flex;
    margin: 0 -30px;
+   align-self: center;
 }
 
 .menu-list__list-item{

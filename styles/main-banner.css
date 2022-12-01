@@ -1,0 +1,41 @@
+.main-banner{
+   background: url("../img/main-banner/bg-city-main-banner.png") center/cover no-repeat;
+   padding: 305px 170px 185px;
+   position: relative;
+}
+
+/* .main-banner:after{
+   content: '';
+   display: block;
+   position: absolute;
+   top: 0;
+   left: 0;
+} */
+
+.main-banner__inner-content{
+   display: flex;
+   /* flex-wrap: wrap; */
+}
+
+.inner-content__text{
+   width: 670px;
+}
+
+.inner-content__form{
+   width: 470px;
+   height: 450px;
+   background-color: pink;
+}
+
+.header-text{
+   font-weight: 500;
+   font-size: 48px;  
+   text-transform: uppercase;
+   /* margin: 85px 0 65px; */
+   margin-top: 85px;
+}
+
+.header-text.main-title--white-color:after{
+   margin-left: 0;
+   margin-top: 65px;
+}
