@@ -13,6 +13,7 @@
 .pricing-offer{
    margin: 0 15px;
    width: 370px;
+   transition: 0.3s;
 }
 
 .pricing-offer:hover{
