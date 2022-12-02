@@ -58,29 +58,44 @@ h6 {
 
 .main-title--black-color{
    color: #000;
+   position: relative;
+   padding-bottom: 50px;
 }
 
 
 .main-title--black-color:after{
    content: '';
+   position: absolute;
    display: block;
-   margin: 50px auto 45px auto;
    height: 1px;
    width: 170px;
    background-color: #EC7979;
+   bottom: 0;
+   left: 50%;
+   transform: translate(-50%, 0);
 }
 
 .main-title--white-color{
    color: #fff;
+   position: relative;
+   padding-bottom: 60px;
 }
 
 .main-title--white-color:after{
    content: '';
+   position: absolute;
    display: block;
-   margin: 50px auto 45px auto;
    height: 1px;
    width: 170px;
    background-color: #fff;
+   bottom: 0;
+   left: 50%;
+   transform: translate(-50%, 0);
+}
+
+.header-text.main-title--white-color:after{
+   left: 0%;
+   transform: translate(0);
 }
 
 .secondary-title {
@@ -102,12 +117,17 @@ h6 {
    color: #86878B;
 }
 
+.main-title + .regular-text--gray-color{
+   margin-top: 45px;
+}
+
 .regular-text--black-color{
    color: #000;
 }
 
 .regular-text--white-color{
    color: #fff;
+   margin-top: 60px;
    margin-bottom: 75px;
 }
 
@@ -116,7 +136,7 @@ h6 {
    margin-bottom: 75px;
 }
 
-.separator {
+/* .separator {
    margin: 50px auto 45px auto;
    height: 1px;
    width: 170px;
@@ -128,7 +148,7 @@ h6 {
 
 .separator--white-color {
    background-color: #fff;
-}
+} */
 
 .button {
    width: 270px;

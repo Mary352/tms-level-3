@@ -4,20 +4,9 @@
 
 .social__content--wrapper{
    padding: 20px 170px;
-   /* padding-left: 170px; */
-   /* padding-top: 20px; */
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
-}
-
-
-
-.social__descr__text{
-   font-family: 'Raleway';
-   font-size: 18px;
-   line-height: 21px;
-   color: #86878B;
 }
 
 .social__list-icons{
@@ -32,10 +21,6 @@
    width: 70px;
    height: 70px;
    margin: 0 15px;
-}
-
-.social__list-item{
-   display: inline;
 }
 
 .social__icon-item{
