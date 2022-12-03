@@ -14,6 +14,7 @@
    align-self: center;
 }
 
+/**/
 .social__list-item--wrapper{
    display: flex;
    justify-content: center;
@@ -30,3 +31,21 @@
 .social__icon-item path{
    fill: #CCCCCC;
 }
+
+/* .social__list-item--wrapper{
+   width: 70px;
+   height: 70px;
+   margin: 0 15px;
+}*/
+/*
+.icon__link{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} */
+
+/* .social__icon {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} */
