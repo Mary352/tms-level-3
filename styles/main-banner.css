@@ -1,6 +1,6 @@
 .main-banner{
    background: url("../img/main-banner/bg-city-main-banner.png") center/cover no-repeat;
-   padding: 305px 170px 185px;
+   padding: 305px 0 185px;
    position: relative;
 }
 
@@ -19,19 +19,23 @@
    display: flex;
    position: relative;
    z-index: 1;
-   /* flex-wrap: wrap; */
+   flex-wrap: wrap;
+   margin: 0 -30px;
 }
 
 .inner-content__text{
    /* width: 670px; */
-   width: calc(100% - 470px - 65px);
+   width: calc(100% - 470px - 60px - 60px);
+   margin: 0 30px;
+   /* padding-right: 65px; */
 }
 
 .inner-content__form--wrapper{
-   width: 535px;
+   width: 470px;
    height: 450px;
    background-color: rgb(161, 161, 161, 0.6);
-   padding-left: 65px;
+   /* padding-left: 65px; */
+   margin: 0 30px;
 }
 
 .inner-content__form{
@@ -51,4 +55,8 @@
 .header-text.main-title--white-color:after{
    margin-left: 0;
    margin-top: 65px;
+}
+
+.inner-content__text>.regular-text--white-color{
+   max-width: 235px;
 }

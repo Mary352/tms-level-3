@@ -3,7 +3,7 @@
 }
 
 .social__content--wrapper{
-   padding: 20px 170px;
+   padding: 20px 0;
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
@@ -14,7 +14,7 @@
    align-self: center;
 }
 
-/**/
+/*for not svg sprite*/
 .social__list-item--wrapper{
    display: flex;
    justify-content: center;
@@ -24,13 +24,50 @@
    margin: 0 15px;
 }
 
-.social__icon-item{
+/* .social__icon-item{
    fill: none;
-}
+} */
 
-.social__icon-item path{
+.social__icon-item {
    fill: #CCCCCC;
 }
+
+.icon-hover__rotate-deg:hover{
+   transform: rotate(-45deg);
+}
+
+.icon-hover__color:hover{
+   fill: #1195F5;
+}
+
+.icon-hover__border:hover{
+   fill: transparent;
+   stroke: #1D9BF0;
+   stroke-width: 3px;
+}
+
+.icon-hover__rotate-turn:hover{
+   transition: transform 0.5s linear;
+   transform: rotate(1turn);
+}
+
+.icon-hover__translateY:hover{
+   transform: translateY(-10px);
+}
+
+.icon-hover__scale:hover{
+   transform: scale(1.2);
+}
+
+.icon-hover__scale-reverse:hover{
+   transform: scale(-1);
+}
+
+.icon-hover__skew:hover{
+   transform: skew(10deg, 10deg);
+   /* transform: skewY(18deg); */
+}
+
 
 /* .social__list-item--wrapper{
    width: 70px;
