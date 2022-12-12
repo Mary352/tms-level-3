@@ -16,6 +16,8 @@
       <link rel="stylesheet" href="./styles/header.css">
       <link rel="stylesheet" href="./styles/main-banner.css">
       <link rel="stylesheet" href="./styles/contact.css">
+      <link rel="stylesheet" href="./styles/adaptive.css">
+      <link rel="stylesheet" href="./styles/adaptive-mobile.css">
       <title>AXIT</title>
 </head>
 
@@ -49,27 +51,30 @@
                               </h1>
                               <p class="regular-text regular-text--white-color">Lorem ipsum dolor sit amet, consectetur
                                     adipiscing elit</p>
-                              <a href="#" target="_blank" class="button button--transparent-color">Download</a>
+                              <a href="#" target="_blank"
+                                    class="button button--transparent-color button--small-size">Download</a>
                         </div>
                         <div class="inner-content__form-container">
 
                               <h4 class="h4-title form-title">Try Your <span class="text-highlight">FREE</span>
                                     Trial Today</h4>
                               <form class="inner-content__form">
-                                    <div class="main-banner__input--wrapper">
-                                          <input type="text" class="input-style main-banner__input" id="main-name"
-                                                placeholder="Name">
+                                    <div class="main-banner__form-inputs--wrapper">
+                                          <div class="main-banner__input--wrapper">
+                                                <input type="text" class="input-style main-banner__input" id="main-name"
+                                                      placeholder="Name">
+                                          </div>
+                                          <div class="main-banner__input--wrapper">
+                                                <input type="text" class="input-style main-banner__input"
+                                                      id="main-email" placeholder="Email">
+                                          </div>
+                                          <div class="main-banner__input--wrapper last">
+                                                <input type="text" class="input-style main-banner__input" id="main-name"
+                                                      placeholder="Password">
+                                          </div>
                                     </div>
-                                    <div class="main-banner__input--wrapper">
-                                          <input type="text" class="input-style main-banner__input" id="main-email"
-                                                placeholder="Email">
-                                    </div>
-                                    <div class="main-banner__input--wrapper last">
-                                          <input type="text" class="input-style main-banner__input" id="main-name"
-                                                placeholder="Password">
-                                    </div>
-                                    <a href="#" target="_blank" class="button button--red-color form-button">Get
-                                          Started</a>
+                                    <button href="#" target="_blank" class="button button--red-color form-button">Get
+                                          Started</button>
                               </form>
 
 
@@ -213,11 +218,12 @@
                                           Aenean euismod bibendum laoreet.</p>
                               </div>
 
-                              <a href="#" target="_blank" class="button button--red-color">Download</a>
+                              <a href="#" target="_blank"
+                                    class="button button--red-color button--small-size">Download</a>
                         </div>
 
                         <div class="tab-content__tab-img--wrapper">
-                              <img class="tab-content__tab-img" src="./img/tabs/libertyStatue.jpg"
+                              <img class="tab-content__tab-img" id="liberty" src="./img/tabs/libertyStatue.jpg"
                                     alt="Statue of Liberty. NY">
                         </div>
                   </div>
@@ -226,6 +232,12 @@
 
       <section class="about-us">
             <div class="container">
+                  <!-- <h2 class="main-title main-title--black-color">WHY THIS IS AWESOME</h2>
+                  <div class="separator separator--red-color"></div>
+                  <p class="regular-text regular-text--gray-color regular-text--center-align">Lorem ipsum dolor sit
+                        amet, consectetur adipiscing
+                        elit.</p> -->
+
                   <h2 class="main-title main-title--black-color">WHY THIS IS AWESOME</h2>
                   <!-- <div class="separator separator--red-color"></div> -->
                   <p class="regular-text regular-text--gray-color regular-text--center-align">Lorem ipsum dolor sit
@@ -460,13 +472,13 @@
                   <p class="regular-text regular-text--white-color">Use the sections you need, remove the ones you
                         don't. Create gorgeous prototypes
                         faster than ever!</p>
-                  <a href="#" target="_blank" class="button button--transparent-color">Download</a>
+                  <a href="#" target="_blank" class="button button--transparent-color button--large-size">Download</a>
             </div>
       </section>
 
       <section class="contact">
             <div class="container">
-                  <h2 class="main-title main-title--black-color">what our customers are saying</h2>
+                  <h2 class="main-title main-title--black-color">contact us</h2>
                   <!-- <div class="separator separator--red-color"></div> -->
                   <p class="regular-text regular-text--gray-color regular-text--center-align">Lorem ipsum dolor sit
                         amet,
@@ -477,7 +489,6 @@
                         <div class="contact__form-inputs--wrapper">
                               <div class="form__part">
                                     <div class="form__input--wrapper">
-
                                           <input type="text" id="name" placeholder=" "
                                                 class="input-style contact__input input-position">
                                           <label for="name" class="contact__label">Name</label>
@@ -498,15 +509,16 @@
 
                               <div class="form__part form__input--wrapper message-input--wrapper">
 
-                                    <input type="textarea" id="message" placeholder=" "
-                                          class="input-style contact__input input-position">
+                                    <textarea id="message" placeholder=" "
+                                          class="input-style contact__input input-position" wrap="hard"></textarea>
                                     <label for="message" class="contact__label message-label">Message</label>
                               </div>
 
                         </div>
 
-                        <a href="#" target="_blank" class="button button--red-color contact__form-button">Send
-                              Message</a>
+                        <button href="#" target="_blank"
+                              class="button button--red-color contact__form-button button--large-size">Send
+                              Message</button>
                   </form>
             </div>
       </section>

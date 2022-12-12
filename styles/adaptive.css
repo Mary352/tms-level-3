@@ -1,0 +1,182 @@
+@media(max-width:1285px){
+
+   /* MAIN */
+
+   .regular-text {
+      font-size: 14px;
+      line-height: 16px;
+   }
+
+   .regular-text--white-color{
+      margin: 35px 0;
+   }
+
+   .main-title {
+      font-size: 24px;
+   }
+
+   .main-title--white-color{
+      padding-bottom: 50px;
+   }
+
+   /* .strong-title{
+      font-weight: 700;
+   } */
+
+   .button--large-size{
+      max-width: 320px;
+   }
+
+   .button--small-size{
+      max-width: 230px;
+   }
+
+   .h4-title{
+      font-size: 18px;
+      margin-bottom: 25px;
+   }
+
+   /* HEADER */
+   .header{
+      padding-left: 115px;
+      padding-right: 20px;
+   }
+   .header__logo--wrapper{
+      transform: translate(0);
+   }
+
+
+   /* MAIN BANNER */
+   .main-banner{
+      padding: 230px 20px 105px 115px;
+   }
+
+   .inner-content__text{
+      padding-right: 55px;
+   }
+
+   .inner-content__text>.button--transparent-color{
+      max-width: 185px;
+   }
+
+   .header-text{
+      font-size: 36px;
+      line-height: 42px;
+      max-width: 455px;
+      margin-top: 60px;
+   }
+
+   /* SOCIAL */
+   .social__list-item--wrapper{
+      width: 64px;
+      height: 64px;
+      margin: 0 10px;
+   }
+
+   /* TABS */
+   .tabs {
+      padding-bottom: 95px;
+      padding-top: 50px;
+   }
+
+   .tab-content__tab-descr{
+      padding: 40px 40px 50px 100px;
+   }
+
+
+   .tab-content__tab-descr>.button--red-color{
+      max-width: 230px;
+   }
+
+   .tab-descr__title{
+      font-size: 24px;
+   }
+
+   #liberty{
+      content: url(../img/tabs/libertyStatue-tablet.jpg);
+      width: 100%;
+      height: 100%;
+   }
+
+   /* ABOUT */
+   .main-title + .regular-text--gray-color {
+      margin-top: 40px;
+   }
+
+   .skills-list{
+      margin: 30px -10px 0;
+   }
+
+   .skills-list__skill-item{
+      margin: 0 10px;
+   }
+
+   .skill-item__image--wrapper {
+      /* width: 80px;
+      height: 80px; */
+      margin-bottom: 70px;
+   }
+
+   .skills-list__skill-item {
+      padding-top: 35px;
+   }
+
+   /* PRICING */
+   .pricing {
+      padding-top: 95px;
+   }
+
+   .pricing-offer--wrapper{
+      margin: 50px -10px 0;
+   }
+
+   .pricing-offer{
+      margin: 0 10px;
+   }
+
+   /* REVIEWS */
+   .reviews{
+      padding: 95px 0 55px;
+      /* padding-bottom: 65px; */
+   }
+
+   .reviews__customers-list {
+      margin: 35px -10px 0;
+   }
+
+   .customers-list__customer{
+      margin: 0 10px;
+   }
+   /* BANNER */
+   .banner{
+      padding-top: 95px;
+   }
+
+   /* CONTACT */
+   .contact{
+      padding-top: 95px;
+   }
+
+   .contact__form {
+      margin: 75px -10px 0;
+   }
+
+   .contact .main-title{
+      font-weight: 700;
+   }
+
+   .form__part{
+      width: calc(50% - 20px);
+      margin: 0 10px;
+   }
+
+   /* FOOTER */
+   .footer__icon-item--wrapper{
+      width: 45px;
+      height: 45px;
+   }
+
+   .footer__copyright{
+      font-size: 14px;
+   }
+}

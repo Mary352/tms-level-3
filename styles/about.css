@@ -9,12 +9,15 @@
    margin: 70px -15px 0;
 }
 
+
 .skill-item__image--wrapper {
    width: 95px;
    height: 95px;
    border: 1px solid #EC7979;
    border-radius: 50%;
-   margin: 80px;
+   /* margin: 80px; */
+   margin-bottom: 80px;
+   /* margin-top: 40px; */
    display: flex;
    justify-content: center;
    align-items: center;
@@ -25,8 +28,10 @@
    flex-direction: column;
    align-items: center;
    text-align: center;
-   width: 370px;
+   /* width: 370px; */
+   width: calc(100% / 3 - 30px);
    margin: 0 15px;
+   padding-top: 40px;
 }
 
 .skill-item__descr {

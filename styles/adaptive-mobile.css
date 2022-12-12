@@ -1,0 +1,261 @@
+@media(max-width:768px){
+
+   /*! Шрифт */
+   /*! Отступы */
+   /*! Ширина и макс шир */
+   /*! флекс колонка оставить сетку марджин */
+   /*! Burger */
+
+
+   /* MAIN */
+/* .container{
+   max-width: 400px;
+} */
+   .button{
+      max-width: 100%;
+      width: 100%;
+   }
+   .inner-content__text>.button--transparent-color{
+      max-width: 100%;
+   }
+
+   .inner-content__text>.regular-text--white-color{
+      width: 100%;
+      max-width: 100%;
+      text-align: center;
+   }
+
+   .header-text.main-title--white-color:after{
+      left: 50%;
+      transform: translate(-50%, 0);
+   }
+
+   .h4-title{
+      font-size: 14px;
+   }
+
+   .main-title {
+      font-size: 24px;
+   }
+
+   .about-us .main-title {
+      font-size: 18px;
+   }
+
+   .main-title + .regular-text--gray-color{
+      font-size: 13px;;
+   }
+
+   .regular-text {
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+   }
+
+   .regular-text--white-color {
+      margin: 50px 0;
+   }
+
+
+   /* HEADER */
+   .header{
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+   .nav{
+      display: none;
+   }
+
+   /* MAIN BANNER */
+   .main-banner{
+      padding: 150px 15px 50px;
+   }
+
+   .main-banner__inner-content{
+      flex-direction: column;
+      /* align-items: center;
+      justify-content: center; */
+   }
+
+   .inner-content__logo--wrapper{
+      display: none;
+   }
+
+   .header-text{
+      max-width: 100%;
+      width: 100%;
+      margin: 0;
+      text-align: center;
+   }
+
+   .inner-content__text{
+      max-width: 100%;
+      width: 100%;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .inner-content__text>.button--transparent-color{
+      margin-bottom: 55px;
+   }
+
+   .inner-content__form-container{
+      width: 100%;
+      align-self: stretch;
+   }
+
+
+
+   /* SOCIAL */
+   .social{
+      padding: 50px 15px 45px;
+   }
+   
+   .social__list-item--wrapper{
+      width: 26px;
+      height: 26px;
+   }
+
+   .social__content--wrapper{
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .h4-title{
+      margin-bottom: 35px;
+      text-align: center;
+   }
+
+   .social .regular-text{
+      text-align: center;
+   }
+
+   .social__descr{
+      margin-bottom: 40px;
+   }
+
+   /* TABS */
+   .tabs {
+      padding-bottom: 55px;
+      padding-top: 40px;
+   }
+
+
+   .tab-content__tab-descr{
+      width: 100%;
+   }
+
+   .tab-content__tab-img--wrapper{
+      display: none;
+   }
+
+   .tabs-list__tab{
+      width: calc(100% / 3 - 3px );
+      padding: 10px 30px;
+   }
+
+   .tab-descr__title{
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center;
+   }
+
+   .tab-descr__text{
+      font-size: 13px;
+      line-height: 15px;
+      margin-bottom: 30px;
+   }
+
+   .tab-content__tab-descr>.button--red-color{
+      max-width: 100%;
+   }
+
+   .tab-content__tab-descr{
+      padding: 40px 20px 30px 25px;
+   }
+
+   /* ABOUT */
+   .skills-list__skill-item{
+      width: 100%;
+   }
+
+   .skills-list__skill-item>.regular-text{
+      max-width: 285px;
+   }
+
+   .skills-list{
+      margin-top: 50px;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .skills-list__skill-item {
+      margin: 10px;
+   }
+
+   /* PRICING */
+   .pricing-offer__main-text {
+      font-size: 18px;
+   }
+
+   .pricing-offer__main-text--high{
+      font-size: 24px;
+   }
+
+   .pricing-offer__link--wrapper{
+      min-width: 100%;
+   }
+
+   .pricing-offer__link--wrapper:not(.pricing-offer--wrapper:last-child){
+      /* width: 100%;
+      max-width: 100%;
+      min-width: 100%; */
+      margin-bottom: 30px;
+   }
+
+   .pricing-offer--wrapper{
+      justify-content: center;
+      align-items: center;
+   }
+
+   /* REVIEWS */
+   .reviews{
+      padding-top: 25px;
+      padding-bottom: 30px;
+   }
+
+   .info__descr>.regular-text{
+      font-size: 13px;
+   }
+   
+   /* BANNER */
+   .banner{
+      padding-top: 50px;
+      padding-bottom: 60px;
+   }
+
+   .banner .button{
+      margin-top: 20px;
+   }
+
+   /* CONTACT */
+   .contact{
+      padding-top: 50px;
+      padding-bottom: 40px;
+   }
+
+   .form__part{
+      width: 100%;
+   }
+
+   .message-input--wrapper{
+      height: 185px;
+      margin-top: 50px;
+   }
+
+   /* FOOTER */
+   
+}

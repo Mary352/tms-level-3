@@ -10,9 +10,14 @@
    text-align: center;   
 }
 
+.pricing-offer__link--wrapper{   
+   /* width: 370px; */
+   width: calc(100% / 3);
+   min-width: 370px;
+}
+
 .pricing-offer{
    margin: 0 15px;
-   width: 370px;
    transition: 0.3s;
 }
 

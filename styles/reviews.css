@@ -14,7 +14,7 @@
 }
 
 .customer__dilogue-window{
-   width: 370px;
+   max-width: 370px;
    padding: 40px 25px;
    background-color: #E2E2E2;
    border-radius: 10px;
