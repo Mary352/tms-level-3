@@ -54,8 +54,28 @@
       padding-left: 20px;
       padding-right: 20px;
    }
-   .nav{
+   .nav ul{
       display: none;
+   }
+
+.header__container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-right: 35px;
+}
+
+   .header__burger-menu-icon--wrapper{
+      display: block;
+      width: 24px; 
+      height: 18px;
+      /* padding: 25px 0; */
+      /* align-self: center; */
+      /* padding-top: 20px; */
+   }
+
+   .header__burger-menu-icon{
+      fill: #fff;
    }
 
    /* MAIN BANNER */

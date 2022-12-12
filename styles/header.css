@@ -24,6 +24,10 @@
    /* min-height: max-content; */
 }
 
+.header__burger-menu--wrapper{
+   display: none;
+}
+
 .header__menu-list{
    display: flex;
    /* margin: 0 -30px; */
