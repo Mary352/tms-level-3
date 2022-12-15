@@ -12,15 +12,14 @@
 .social__list-icons{
    display: flex;
    align-self: center;
+   flex-wrap: wrap;
 }
 
 /*for not svg sprite*/
 .social__list-item--wrapper{
    display: flex;
    justify-content: center;
-   align-items: center;
-   /* width: 70px;
-   height: 70px; */
+   align-items: center;   
    margin: 0 15px;
 }
 
@@ -30,8 +29,8 @@
 
 .social__icon-item {
    fill: #CCCCCC;   
-      width: 70px;
-      height: 70px;
+   width: 70px;
+   height: 70px;
    
 }
 

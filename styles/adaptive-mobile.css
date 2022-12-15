@@ -128,6 +128,10 @@
       height: 26px;
    } */
 
+   .social__list-icons{
+      justify-content: center;
+   }
+
    .social__icon-item, .footer__icon-item{
       width: 26px;
       height: 26px;

@@ -13,7 +13,7 @@
 
 .footer__list-icons{
    display: flex;
-   /* flex-wrap: wrap; */
+   flex-wrap: wrap;
    justify-content: center;
 }
 
