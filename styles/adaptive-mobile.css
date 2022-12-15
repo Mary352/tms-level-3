@@ -123,7 +123,12 @@
       padding: 50px 15px 45px;
    }
    
-   .social__list-item--wrapper{
+   /* .social__list-item--wrapper{
+      width: 26px;
+      height: 26px;
+   } */
+
+   .social__icon-item, .footer__icon-item{
       width: 26px;
       height: 26px;
    }

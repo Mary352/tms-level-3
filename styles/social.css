@@ -5,7 +5,7 @@
 .social__content--wrapper{
    padding: 20px 0;
    display: flex;
-   flex-wrap: wrap;
+   /* flex-wrap: wrap; */
    justify-content: space-between;
 }
 
@@ -19,8 +19,8 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   width: 70px;
-   height: 70px;
+   /* width: 70px;
+   height: 70px; */
    margin: 0 15px;
 }
 
@@ -29,7 +29,10 @@
 } */
 
 .social__icon-item {
-   fill: #CCCCCC;
+   fill: #CCCCCC;   
+      width: 70px;
+      height: 70px;
+   
 }
 
 .icon-hover__rotate-deg:hover{

@@ -67,10 +67,13 @@
    }
 
    /* SOCIAL */
-   .social__list-item--wrapper{
-      width: 64px;
-      height: 64px;
+   .social__list-item--wrapper{      
       margin: 0 10px;
+   }
+
+   .social__icon-item{
+      width: 60px;
+      height: 60px;
    }
 
    /* TABS */
@@ -134,6 +137,14 @@
       margin: 0 10px;
    }
 
+   .pricing-offer__item{
+      padding: 15px 0;
+   }
+
+   .pricing-offer__item--high {
+      padding: 30px 0;
+   }
+
    /* REVIEWS */
    .reviews{
       padding: 95px 0 55px;
@@ -171,12 +182,12 @@
    }
 
    /* FOOTER */
-   .footer__icon-item--wrapper{
-      width: 45px;
-      height: 45px;
-   }
-
    .footer__copyright{
       font-size: 14px;
+   }
+
+   .footer__icon-item{
+      width: 45px;
+      height: 45px;
    }
 }
