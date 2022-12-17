@@ -6,15 +6,16 @@
 .reviews__customers-list{
    margin: 85px -15px 0;
    display: flex;
-   flex-wrap: wrap;
 }
 
 .customers-list__customer{
    margin: 0 15px;
+   width: calc(100% / 3);
 }
 
 .customer__dilogue-window{
-   max-width: 370px;
+   /* max-width: 370px; */
+   width: 100%;
    padding: 40px 25px;
    background-color: #E2E2E2;
    border-radius: 10px;
@@ -104,3 +105,4 @@
 .info__descr{
    align-self: center;
 }
+
